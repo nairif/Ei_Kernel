@@ -19,6 +19,7 @@ echo -e "\n"
 echo -e "$red << cleaning up >> \n$white"
 echo -e "\n"
 rm -rf out
+make mrproper
 
 DEFCONFIG="griffin_defconfig"
 export KBUILD_BUILD_USER=yhahabadut
